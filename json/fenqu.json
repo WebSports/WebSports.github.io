@@ -1,0 +1,14 @@
+[
+    {
+        "parentId": 1,
+        "CompanyName": "华中区北部"
+    },
+    {
+        "parentId": 2,
+        "CompanyName": "华南区南部"
+    },
+    {
+        "parentId": 3,
+        "CompanyName": "华北区北部"
+    }
+]

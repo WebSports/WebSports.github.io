@@ -1,0 +1,14 @@
+[   
+    {
+        "id": 1,
+        "CompanyName": "华中区"
+    },
+    {
+        "id": 2,
+        "CompanyName": "华南区"
+    },
+    {
+        "id": 3,
+        "CompanyName": "华北区"
+    }
+]
