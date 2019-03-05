@@ -1,14 +1,17 @@
-[   
-    {
-        "id": 1,
-        "CompanyName": "华中区"
+{
+  "ErrorMessage": "成功", //成功或失败
+  "Status": 200, //请求成功返回状态码200
+  "data": 
+    [{
+      "id": 1,
+      "CompanyName": "华中区"
     },
     {
-        "id": 2,
-        "CompanyName": "华南区"
+      "id": 2,
+      "CompanyName": "华南区"
     },
     {
-        "id": 3,
-        "CompanyName": "华北区"
-    }
-]
+      "id": 3,
+      "CompanyName": "华北区"
+    }]
+}
