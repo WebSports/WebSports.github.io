@@ -1,14 +1,17 @@
-[
-  {
-      "parentsId": 1,
-      "CompanyName": "华中区北部1号店铺"
-  },
-  {
-      "parentsId": 2,
-      "CompanyName": "华中区南部1号店铺"
-  },
-  {
-      "parentsId": 3,
-      "CompanyName": "华南区北部1号店铺"
-  }
-]
+{
+  "ErrorMessage": "成功",  //成功或失败
+  "Status": 200,          //请求成功返回状态码200
+  "data":
+  [{
+        "parentsId": 1,
+        "CompanyName": "华中区北部1号店铺"
+    },
+    {
+        "parentsId": 2,
+        "CompanyName": "华中区南部1号店铺"
+    },
+    {
+        "parentsId": 3,
+        "CompanyName": "华南区北部1号店铺"
+  }]
+}
