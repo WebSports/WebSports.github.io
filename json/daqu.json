@@ -1,17 +1,71 @@
 {
   "ErrorMessage": "成功", //成功或失败
   "Status": 200, //请求成功返回状态码200
-  "data": 
-    [{
-      "id": 1,
-      "CompanyName": "华中区"
-    },
+  "data": [
     {
-      "id": 2,
-      "CompanyName": "华南区"
-    },
-    {
-      "id": 3,
-      "CompanyName": "华北区"
-    }]
+    "whole": "MUJI上海公司",                 //默认全国
+    "daqu": [
+      {                                     //大区
+        "name": "上海地区",
+        "fenqu": [
+          {
+            "fenname": "上海中",            //大区下分区
+            "fenqushop": [
+              {
+                "name": "上海环贸"          //大区下分区店铺
+              },
+              {
+                "name": "上海北沙"
+              }
+
+            ]
+          },
+          {
+            "fenname": "上海北",
+            "fenqushop": [
+
+              {
+                "name": "上海大悦城"
+              },
+              {
+                "name": "上海太平洋"
+              }
+
+            ]
+          }
+        ]
+      },
+      {
+        "name": "西南地区",
+        "fenqu": [
+          {
+            "fenname": "西藏中",
+            "fenqushop": [
+
+              {
+                "name": "大昭寺北广场"
+              },
+              {
+                "name": "布达拉宫西店"
+              }
+
+            ]
+          },
+          {
+            "fenname": "西藏北",
+            "fenqushop": [
+
+              {
+                "name": "阿里店"
+              },
+              {
+                "name": "错那店"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
 }
