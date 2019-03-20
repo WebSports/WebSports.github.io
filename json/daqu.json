@@ -1,71 +1,76 @@
 {
-  "ErrorMessage": "成功", //成功或失败
-  "Status": 200, //请求成功返回状态码200
-  "data": [
-    {
-    "whole": "MUJI上海公司",                 //默认全国
-    "daqu": [
-      {                                     //大区
-        "name": "上海地区",
-        "fenqu": [
-          {
-            "fenname": "上海中",            //大区下分区
-            "fenqushop": [
-              {
-                "name": "上海环贸"          //大区下分区店铺
-              },
-              {
-                "name": "上海北沙"
-              }
+	"ErrorMessage": "成功",
+	"Status": 200,
+	"data": [{
+		"id": 1,
+		"text": "MUJI上海公司",
 
-            ]
-          },
-          {
-            "fenname": "上海北",
-            "fenqushop": [
+		"children": [{
+				"id": 11,
+				"text": "上海地区",
+				"state": "closed",
+				"children": [{
+					"id": 111,
+					"text": "上海中",
+					"state": "closed",
+					"children": [{
+							"id": 1111,
+							"text": "上海环贸广场店"
+						},
+						{
+							"id": 2222,
+							"text": "上海青浦宝龙广场"
+						},
+						{
+							"id": 3333,
+							"text": "上海百联世纪购物中心"
+						},
+						{
+							"id": 4444,
+							"text": "上海七宝宝龙城市广场"
+						},
+						{
+							"id": 5555,
+							"text": "上海百联川沙购物中心"
+						}
+					]
+				}, {
+					"id": 112,
+					"text": "上海北",
+					"state": "closed",
+					"children": [{
+							"id": 6666,
+							"text": "上海大悦城店"
+						},
+						{
+							"id": 7777,
+							"text": "上海太平洋不夜城店"
+						}
+					]
+				}]
+			},
+			{
+				"id": 12,
+				"text": "华中地区",
+				"children": [{
+						"id": 121,
+						"text": "华中一区"
+					},
+					{
+						"id": 122,
+						"text": "华中二区",
+						"attributes": {
+							"p1": "Custom Attribute1",
+							"p2": "Custom Attribute2"
+						}
+					},
+					{
+						"id": 123,
+						"text": "华中三区"
+					}
 
-              {
-                "name": "上海大悦城"
-              },
-              {
-                "name": "上海太平洋"
-              }
-
-            ]
-          }
-        ]
-      },
-      {
-        "name": "西南地区",
-        "fenqu": [
-          {
-            "fenname": "西藏中",
-            "fenqushop": [
-
-              {
-                "name": "大昭寺北广场"
-              },
-              {
-                "name": "布达拉宫西店"
-              }
-
-            ]
-          },
-          {
-            "fenname": "西藏北",
-            "fenqushop": [
-
-              {
-                "name": "阿里店"
-              },
-              {
-                "name": "错那店"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+				]
+			}
+		]
+	}]
 }
